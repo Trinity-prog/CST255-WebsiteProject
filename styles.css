@@ -1,0 +1,98 @@
+/* General Page Style */
+body {
+	background-color: 4f7fb;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.6;
+	margin: 0;
+}
+
+/* Header Style */
+
+header {
+	background-color: #243b55;
+	color: white;
+	text-align: center;
+	padding: 25px;
+	border-bottom: 5px solid #4f86c6;
+}
+/* Main Page Heading */
+h1 {
+	margin: 0 0 15px;
+}
+
+/* Navigation Links */
+nav a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none:
+	margin: 0 10px;
+	padding: 7px 10px;
+	border-radius: 4px;
+}
+nav a:hover {
+	background-color: #4f86c6;
+	text-decoration: underline;
+}
+/* Main content area */
+main {
+	background-color: white;
+	max-width: 900px;
+	margin: 30px auto;
+	padding: 25px;
+	border: 1px solid #c8d1dc;
+	border-radius: 8px;
+}
+
+/* section Heading */
+h2 {
+	color: #243b55;
+	border-bottom: 2px solid #4f86c6;
+	padding-bottom: 5px;
+	margin-top 25px;
+}
+/* paragraphs and lists */
+p,
+li {
+	font-size:17px;
+}
+ul,
+ol {
+	padding-left:30px;
+}
+/* Images */
+img {
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	margin: 0 auto 25px;
+	border: 3px solid #4f86c6;
+	border-radius: 8px;
+}
+/* embedded video */
+iframe {
+	display: block;
+	max-width: 100%;
+	margin: 20px auto;
+	border: 3px solid #4f86c6;
+	border-radius: 8px;
+}
+
+/* regular links inside the main content */
+main a {
+	color: #245d96:
+	font-weight: bold;
+}
+main a:hover {
+	color: #173f68;
+}
+/* Footer */
+footer {
+	background-color: #243b55;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	margin-top: 30px;
+	border-topp: 5px solid #4f86c6;
+}
+
