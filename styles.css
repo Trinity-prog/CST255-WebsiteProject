@@ -103,4 +103,39 @@ footer {
 	margin-top: -10px;
 	margin-bottom: 20px;
 }
+* {
+	box-sizing: border-box;
+}
+main {
+	width: 90%;
+	max-width: 1000px;
+	margin: 35px auto;
+	padding: 30px;
+}
+.intro-layout {
+	display: flex;
+	align-items: center;
+	gap: 35px;
+	margin-bottom: 30px;
+}
+.intro-image, 
+.intro-text {
+	flex: 1;
+}
+.content-section {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	border-left: 5px solid #4f86c8;
+	border-radius: 8px;
+	padding: 22px;
+	margin 25px 0;
+}
+.content-section h2 {
+	margin-top: 0;
+}
+.content-section p:last-child,
+.content-section ul:last-child,
+.content-section ol:last-child {
+	margin-bottom: 0;
+}
 
