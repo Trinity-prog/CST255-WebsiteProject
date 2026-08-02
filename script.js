@@ -1,19 +1,14 @@
-documnet.addEventListener("DOMContentLoaded", function() {
-const detailsButton = document.getElementById("details-button");
-const careerDetails = document.getElementById("career-button");
-const messageButton = document.getElementById("message-button");
-
-detailsButton.addEventListener("click", function() {
+function toggleCareerDetails(detailsButton) {
+const careerDetails = detailsButton.nextElementSibling;	
 	if (careerDetails.style.display === "none") {
 	careerDetails.style.display = "block";
-	detailButton.textContent = "Hide Career Details";
+	detailsButton.textContent = "Hide Career Details";
 } else {
 	careerDetails.style.display = "none";
-	detailButton.textContent = "Show Career Details";
+	detailsButton.textContent = "Show Career Details";
 	}
-});
-
-messageButton.addEventListener("click", function() {
+}
+function showCareerMessage() {
 	alert("Thank you for visisting my career goals website!");
-});
-});
+}
+

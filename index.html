@@ -47,7 +47,7 @@
 	One of my main goals is to build projects that allow me to 	
 	strengthen my skills and prepare me for a career where i can create meaningful applications.</p>
 	</section>
-	<section class="content-section'>
+	<section class="content-section">
 	
 	<h2> My Goals </h2>
 	
@@ -57,15 +57,20 @@
 		<li>Build a portfolio of software projects</li>
 		<li>Start a career as a software developer</li>
 	</ul>
-	<button id="details-button">Show Career Details</button>
-	<p id="career-details" class="hidden">
+	<button type="button" id="details-button" onclick="toggleCareerDetails(this)">
+	Show Career Details
+	</button>
+	<div id="career-details" style="display:none;">
+	<p>
 	I plan to continue improving my programming skills, create more software projects,
 	and prepare for a professional career in software development.
 	</p>
-	<button id="message-button">Click for a message</button>
+	</div>
+	<button type="button" id="message-button" onclick="showCareerMessage()">
+	Click for a message
+	</button>
 	</section>
 </main>
-<hr>
 <footer>
 	<p>Created by Trinity Jamison</p>
 </footer>
