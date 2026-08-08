@@ -1,6 +1,6 @@
 function toggleCareerDetails(detailsButton) {
 const careerDetails = detailsButton.nextElementSibling;	
-	if (careerDetails.style.display === "none") {
+	if (careerDetails.style.display === "none" || careerDetails.style.display === "") {
 	careerDetails.style.display = "block";
 	detailsButton.textContent = "Hide Career Details";
 } else {
@@ -12,11 +12,11 @@ function showCareerMessage() {
 	alert("Thank you for visisting my career goals website!");
 }
 function validateContactForm() {
-	var name = document.getElementByID("name").value.trim();
-	var email = document.getElementByID("email").value.trim();
-	var reason = document.getElementByID("reason").value.trim();
-	var message = document.getElementByID("message").value.trim();
-	var form-message = document.getElementByID("form-message").value.trim();
+	var name = document.getElementById("name").value.trim();
+	var email = document.getElementById("email").value.trim();
+	var reason = document.getElementById("reason").value.trim();
+	var message = document.getElementById("message").value.trim();
+	var formMessage = document.getElementById("form-message");
 	if (name === "" || email === "" || reason === "" || message === "") {
 	formMessage.textContent = "Please complete all fields before submitting.";
 	formMessage.style.color = "Red";
@@ -29,7 +29,7 @@ if (!email.includes("@")) {
 }
 formMessage.textContent = "Thank You! Your form was completed successfully.";
 formMessage.style.color = "Green";
-document.getElementByID("contact-form").reset();
+document.getElementById("contact-form").reset();
 return false;
 }
 
