@@ -205,5 +205,8 @@ form {
 }
 #form-message {
 	margin-top: 15px;
-	font-weight:bold;
+	font-weight: bold;
 }
+.form-error { color: #b00020; }
+.form-success { color: #1b7a1b; }
+[aria-invalid="true"] { outline: 2px solid #f2a0a0; }
